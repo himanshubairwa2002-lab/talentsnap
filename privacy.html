@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TalentSnap Privacy Policy | SkillsQuery Digital</title>
+<link rel="icon" type="image/png" href="assets/icon-128.png">
+<style>
+  :root { 
+    --text: #1e293b; 
+    --muted: #64748b; 
+    --bg: #ffffff; 
+    --card: #f8fafc;
+    --accent: #2563eb; 
+    --border: #e2e8f0; 
+  }
+  @media (prefers-color-scheme: dark) { 
+    :root { 
+      --text: #f1f5f9; 
+      --muted: #94a3b8; 
+      --bg: #0b0f17; 
+      --card: #151d2a;
+      --accent: #60a5fa; 
+      --border: #1e293b; 
+    } 
+  }
+  body { 
+    margin: 0; 
+    background: var(--bg); 
+    color: var(--text); 
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; 
+  }
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--text);
+    text-decoration: none;
+  }
+  .brand img {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+  }
+  nav a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  main { 
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 40px 24px 80px; 
+  }
+  h1 { font-size: 32px; margin: 0 0 8px; font-weight: 800; letter-spacing: -0.5px; }
+  h2 { font-size: 20px; margin: 36px 0 12px; font-weight: 700; }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); font-size: 14px; }
+  a { color: var(--accent); }
+  .box {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 24px 0;
+  }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { font-weight: 600; color: var(--muted); background: var(--card); }
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 32px 24px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+</style>
+</head>
+<body>
+<header>
+  <a href="index.html" class="brand">
+    <img src="assets/icon-128.png" alt="TalentSnap Logo">
+    <span>TalentSnap</span>
+  </a>
+  <nav>
+    <a href="index.html">← Back to Overview</a>
+  </nav>
+</header>
+
+<main>
+<h1>TalentSnap Privacy Policy</h1>
+<p class="muted">Effective 7 November 2026 &bull; Published by SkillsQuery Digital</p>
+
+<p>TalentSnap is a Chrome extension that helps recruiters save LinkedIn profiles they are viewing into a candidate pipeline and export them to a spreadsheet. This policy explains what data TalentSnap handles, where it goes, and how you control it.</p>
+
+<div class="box">
+  <h2 style="margin-top:0;">The short version</h2>
+  <ul style="margin-bottom:0; padding-left: 20px;">
+    <li><strong>TalentSnap reads a LinkedIn profile only when you open TalentSnap on that profile.</strong></li>
+    <li><strong>Candidates you save are stored locally in your browser, on your own device.</strong></li>
+    <li><strong>Nothing is sent anywhere</strong> unless you choose to turn on Google Sheets sync in Settings. Then saves go only to the private Google Sheet you configure.</li>
+    <li><strong>TalentSnap has no remote tracking servers.</strong> There is no telemetry, no analytics, and no advertising. We never sell, rent, or share candidate or recruiter data.</li>
+  </ul>
+</div>
+
+<h2>What TalentSnap collects</h2>
+<p>When you open the TalentSnap side panel on a LinkedIn profile page, it reads the information displayed on that page:</p>
+<table>
+  <tr><th>Data Field</th><th>Purpose</th></tr>
+  <tr><td>Name, headline, current company, location, profile link, photo link, connection degree</td><td>Shown on the candidate card so you can review and edit it before saving</td></tr>
+  <tr><td>About, experience, education, skills</td><td>Saved with the candidate so your pipeline has the context you need</td></tr>
+  <tr><td>Pipeline stage and notes you type</td><td>Your own recruiting notes for that candidate</td></tr>
+  <tr><td>Your settings: pipeline stages, theme, optional Google Sheets link and secret</td><td>To remember how you configured TalentSnap</td></tr>
+  <tr><td>A count of candidates saved</td><td>To apply the free plan limit (up to 15 candidates)</td></tr>
+</table>
+<p>TalentSnap only runs on LinkedIn profile pages (<code>linkedin.com/in/*</code>). It does not read any other website, your browsing history, your LinkedIn direct messages, or your private address book.</p>
+
+<h2>Where the data is stored</h2>
+<p>Saved candidates and the free plan count are kept in Chrome's extension storage on your device (<code>chrome.storage.local</code>). Your personal preferences are kept in Chrome's synced extension storage (<code>chrome.storage.sync</code>), which Chrome syncs only between your own signed-in browser instances if Chrome Sync is enabled on your Google account. The developer of TalentSnap cannot see, access, or restore any of it.</p>
+
+<h2>Optional Google Sheets Sync</h2>
+<p>If you turn on Google Sheets integration in Settings, TalentSnap sends saved candidate details to your chosen Google Apps Script web app URL using an HTTPS POST request. That communication is strictly between your browser and Google's servers on your own Google account. No third party or intermediary is involved.</p>
+
+<h2>Permissions explained</h2>
+<table>
+  <tr><th>Permission</th><th>Why TalentSnap requires it</th></tr>
+  <tr><td><code>sidePanel</code></td><td>Lets TalentSnap open as a companion panel alongside the LinkedIn profile you are reviewing.</td></tr>
+  <tr><td><code>scripting</code></td><td>Injects the profile reader into a LinkedIn profile tab that was already open before the extension was installed, avoiding unnecessary manual reloads.</td></tr>
+  <tr><td><code>storage</code></td><td>Saves candidates, pipeline stages, custom settings, and the free-tier count on your local machine.</td></tr>
+  <tr><td><code>https://*.linkedin.com/*</code></td><td>Restricts extension operation exclusively to LinkedIn profile URLs.</td></tr>
+</table>
+
+<h2>Data retention & your rights</h2>
+<p>Because your data lives in your own browser, you have complete ownership and control:</p>
+<ul>
+  <li><strong>Delete anytime:</strong> You can delete individual candidates from the Candidates view, or clear all data by removing the extension.</li>
+  <li><strong>Export anytime:</strong> You can export your full candidate pipeline to CSV or copy rows formatted for Google Sheets with one click.</li>
+  <li><strong>Full Backup & Restore:</strong> You can download a complete JSON backup of your pipeline and restore it anytime on a new computer.</li>
+</ul>
+
+<h2>Developer Contact & Support</h2>
+<p>TalentSnap is developed and maintained by <strong>SkillsQuery Digital</strong>. If you have any privacy questions, feedback, or concerns, please contact:</p>
+<p><strong>Email:</strong> <a href="mailto:techpositive2002@gmail.com">techpositive2002@gmail.com</a><br>
+<strong>Website:</strong> <a href="https://skillsquery.com">skillsquery.com</a></p>
+</main>
+
+<footer>
+  <p>&copy; 2026 SkillsQuery Digital. All rights reserved. TalentSnap is an independent product and is not affiliated with or endorsed by LinkedIn Corporation.</p>
+</footer>
+</body>
+</html>
